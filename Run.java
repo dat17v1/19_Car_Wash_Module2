@@ -19,6 +19,31 @@ public class Run {
     // 11
     System.out.println("Customers wealth: " 
       + customer1.getWealth());
+
+
+    // Dette er ikke en øvelse, men forklaring
+
+    // at lave en instance = at lavet et nyt object
+    GarbageManUnion garbU = new GarbageManUnion();
+    GarbageManUnion garbU2 = new GarbageManUnion();
+
+    garbU.addToArray();
+    garbU2.addToArray();
+    garbU.print();
+    garbU2.print();
+
+
+
+
+
+
+
+
+
+
+
+
+    
   }
 
 }
